@@ -1,0 +1,15 @@
+.place__paragraths {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+@media screen and (max-width:320px) {
+    .place__paragraths {
+        margin: 0px 16px;
+    }
+}
