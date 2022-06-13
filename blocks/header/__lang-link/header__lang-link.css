@@ -4,6 +4,10 @@
     color: #FFFFFF;
 }
 
+.header__link:nth-of-type(2n) {
+    text-decoration: none;
+}
+
 @media screen and (max-width: 320px) {
     .header__link {
         font-size: 18px;
