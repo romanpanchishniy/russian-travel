@@ -7,13 +7,6 @@
     position: 0;
 }
 
-@media screen and (max-width: 390px) {
-    .footer__links {
-        grid-template-columns: 1fr; 
-        grid-template-rows: repeat(5, 27px);
-        gap: 30px;
-    }
-}
 
 @media screen and (max-width: 320px) {
     .footer__links {
