@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 320px) {
     .footer__links {
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr;
         grid-template-rows: repeat(5, 24px);
         gap: 32px;
     }
