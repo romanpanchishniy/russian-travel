@@ -1,4 +1,4 @@
-.place__paragraths {
+.place__paragraphs {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width:320px) {
-    .place__paragraths {
+    .place__paragraphs {
         margin: 0px 16px;
     }
 }

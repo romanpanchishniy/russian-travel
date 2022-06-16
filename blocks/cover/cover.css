@@ -13,6 +13,23 @@
     text-decoration: none;
 }
 
+.cover::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 2;
+    background-color: #2A2C2F;
+    opacity: .3;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.cover:hover::before {
+    opacity: .8;
+}
+
 
 @media screen and (max-width: 1024px) {
     .cover {

@@ -1,4 +1,4 @@
-.header__links {
+.header__lang-links {
     padding: 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .header__links {
+    .header__lang-links {
         margin: 14px 0px 8px;
   }
 }

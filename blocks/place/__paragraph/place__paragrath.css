@@ -1,33 +1,33 @@
-.place__paragrath {
+.place__paragraph {
     margin: 0px;
     font-weight: 400;
     font-size: 18px;
     line-height: 29px;
-    color: #FFFFFF;
+    color: #FFF;
 }
 
-.place__paragrath:nth-of-type(2n) {
+.place__paragraph:nth-of-type(2n) {
     margin: 26px 0px 0px;
 }
 
 @media screen and (max-width:1024px) {
-    .place__paragrath {
+    .place__paragraph {
         margin: 0px;
     }
 
-    .place__paragrath:nth-of-type(2n) {
+    .place__paragraph:nth-of-type(2n) {
         margin: 27px 0px 0px;
     }
 }
 
 @media screen and (max-width:768px) {
-    .place__paragrath {
+    .place__paragraph {
         font-size: 16px;
         line-height: 26px;
         margin: 0px;
     }
 
-    .place__paragrath:nth-of-type(2n) {
+    .place__paragraph:nth-of-type(2n) {
         margin: 25px 0px 0px;
     }
 
